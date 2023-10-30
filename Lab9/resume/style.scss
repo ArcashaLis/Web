@@ -1,0 +1,142 @@
+@import "nulstyle.scss";
+body {
+  font-family: "Inter", sans-serif;
+  width: 792px;
+  background-color: #fff;
+  margin: 0px auto;
+  color: #000;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+}
+header {
+  padding-top: 30px;
+  margin: 50px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  .header_your-name {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+  .header_your-bio {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    text-align: left;
+  }
+  .header_links-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .header_links {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .header_links:first-child {
+    margin-top: 0px;
+  }
+  .header_links p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+main {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  .main_left-box {
+    width: 465px;
+  }
+  .main_container {
+    margin-top: 30px;
+    &:first-child {
+      margin-top: 0px;
+    }
+    .main_headline {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0.015em;
+      text-align: left;
+      color: #136223;
+    }
+    .secondary_headline {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17px;
+      letter-spacing: 0.015em;
+      text-align: left;
+      margin-top: 20px;
+    }
+    .third_headline {
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 10px;
+    }
+    .list {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #52575c;
+      margin-top: 5px;
+    }
+    .ext_headline {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 5px;
+    }
+    li {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 5px;
+      &:first-child {
+        margin-top: 20px;
+      }
+    }
+    .portfolio-link {
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 15px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin: 20px auto 0px auto;
+      text-align: left;
+    }
+    .qrcode {
+      margin: 10px;
+    }
+  }
+}
+.last-picture {
+  z-index: 10;
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+
+.wrapper {
+  position: relative;
+  padding-bottom: 10px;
+}

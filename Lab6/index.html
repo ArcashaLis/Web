@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Сайт еды</title>
+    </head>
+    <body class="wrapper">
+        <h1 id="h1-header">Добро пожаловать! </h1>
+        <h2 id="h2-header">Введите данные для заказа</h2>
+        <div class="data">
+            <div class="forms">
+                <div class="form" id="field-email">
+                    <div class="form-header">
+                        <h3>Ваше имя</h3>
+                    </div>
+                    <div class="form-field">
+                        <form action="#" id="forms"> </form>
+                        <input type="text" name="" id="" form="forms" placeholder="Имя" required />
+                    </div>
+                </div>
+                </div>
+                <div class="form" id="field-email">
+                    <div class="form-header">
+                        <h3>Ваш номер телефона</h3>
+                    </div>
+                    <div class="form-field">
+                        <input type="text" name="" id="" form="forms" placeholder="+375 (xx) yyy-yy-yy"
+                            pattern="^\+375 \((29|25|44|33)\) \d{3}-\d{2}-\d{2}$" required/>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="rating">
+            <h3>Выберите суп</h3>
+            <fieldset form="forms">
+                <legend> Меню </legend>
+                <div class="mark">
+                  <input type="radio" id="1" name="mark" />
+                  <label for="1">Борщ</label>
+                </div>
+                <div class="mark">
+                  <input type="radio" id="2" name="mark" />
+                  <label for="2">Солянка</label>
+                </div>
+                <div class="mark">
+                  <input type="radio" id="3" name="mark" />
+                  <label for="3">Щи</label>
+                </div>
+                <div class="mark">
+                    <input type="radio" id="4" name="mark" />
+                    <label for="4">Рассольник</label>
+                </div>
+                <div class="mark">
+                    <input type="radio" id="5" name="mark" checked />
+                    <label for="5">Том Ям</label>
+                </div>
+              </fieldset>
+        <div class="feedback">
+            <div class="form" id="field-email">
+                <div class="form-header">
+                    <h3> Дополнительная информация курьеру
+                    </h3>
+                </div>
+                <div class="form-field">
+                    <input type="text" name="" id="" form="forms"/>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="send-btn">
+            <input type="submit" value="Заказать" form="forms">
+        </div>
+    </body>
+</html>
+
